@@ -1,0 +1,57 @@
+/* VARIABLES
+*/
+:root{
+    --clr-primary: hsla(45, 30%, 87%, 0.842);
+    --clr-secondy: hsl(48, 80%, 80%);
+    --clr-neutral: hsl(44, 63%, 63%,);
+    --clr-boton: hsl(43, 95%, 43%);
+    --clr-control: hsl(46, 100%, 32%);
+}
+
+/* ESTILO GLOBAL */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: var(--clr-primary);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+a,button{
+    background-color: var(--clr-boton);
+    color: var(--clr-primary);
+    text-decoration: none;
+    text-align: center;
+    border: 0.1rem solid var(--clr-primary);
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    font-size: 0.9rem;
+}
+
+a.btn-servicios:hover,
+a.btn-servicios:active {
+    background-color: var(--clr-secondy);
+    color: var(--clr-control);
+}
+
+a.btn-whatsapp:hover,
+a.btn-whatsapp:active {
+    background-color: var(--clr-secondy);
+    color: var(--clr-control);
+}
+
+
